@@ -39,7 +39,7 @@ for(var i in favSongs) {
   tbody.appendChild(tr);
   try {
     document.querySelector("#youtubeVideos_" + videosLoaded).style.width = "450px";
-    document.querySelector("#youtubeVideos_" + videosLoaded).style.height = "195px";
+    document.querySelector("#youtubeVideos_" + videosLoaded).style.height = "295px";
     videosLoaded++;
   } catch(error) {
     console.log("Error resizing iframes: " + error);
