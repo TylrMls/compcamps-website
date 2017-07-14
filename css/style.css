@@ -32,8 +32,9 @@ a {
 }
 
 .socialIcons {
-  width: 200px;
-  margin: auto;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 
 a:hover {
